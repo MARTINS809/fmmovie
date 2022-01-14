@@ -13,11 +13,11 @@ function Form() {
     };
     return (
 
-        <div className="dsmovie-form-container">
-    <img className="dsmovie-movie-card-image" src={movie.image} alt={movie.title} />
-    <div className="dsmovie-card-bottom-container">
+    <div className="fmmovie-form-container">
+    <img className="fmmovie-movie-card-image" src={movie.image} alt={movie.title} />
+    <div className="fmmovie-card-bottom-container">
         <h3>{movie.title}</h3>
-        <form className="dsmovie-form">
+        <form className="fmmovie-form">
             <div className="form-group dsmovie-form-group">
                 <label htmlFor="email">Informe seu email</label>
                 <input type="email" className="form-control" id="email" />
@@ -32,7 +32,7 @@ function Form() {
                     <option>5</option>
                 </select>
             </div>
-            <div className="dsmovie-form-btn-container">
+            <div className="fmmovie-form-btn-container">
                 <button type="submit" className="btn btn-primary dsmovie-btn">Salvar</button>
             </div>
         </form >
