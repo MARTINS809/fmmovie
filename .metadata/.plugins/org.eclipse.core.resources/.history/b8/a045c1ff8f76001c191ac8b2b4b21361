@@ -1,0 +1,23 @@
+package com.fmartins.fmmovie.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.fmartins.fmmovie.repositories.MovieRepository;
+import com.fmartins.fmmovie.repositories.ScoreRepository;
+import com.fmartins.fmmovie.repositories.UserRepository;
+
+@Service
+public class ScoreService {
+	@Autowired
+	private MovieRepository movieRepository;
+	
+	@Autowired
+	private UserRepository userRepository;
+	
+	@Autowired
+	private ScoreRepository scoreRepository;
+	
+	
+	
+}
