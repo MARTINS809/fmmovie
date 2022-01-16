@@ -1,0 +1,5 @@
+package com.fmartins.fmmovie.controllers;
+
+public class MovieController {
+
+}

@@ -1,0 +1,5 @@
+package com.fmartins.fmmovie.repositories;
+
+public class MovieRepository {
+
+}

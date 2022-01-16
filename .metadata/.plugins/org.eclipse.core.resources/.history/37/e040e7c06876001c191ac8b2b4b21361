@@ -1,0 +1,5 @@
+package com.fmartins.fmmovie.services;
+
+public class MovieService {
+
+}

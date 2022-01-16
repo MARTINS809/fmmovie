@@ -1,0 +1,5 @@
+package com.fmartins.fmmovie.dto;
+
+public class MovieDTO {
+
+}
