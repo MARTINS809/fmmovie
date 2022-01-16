@@ -1,0 +1,5 @@
+package com.fmartins.fmmovie.entities;
+
+public class User {
+
+}
